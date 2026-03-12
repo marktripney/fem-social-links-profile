@@ -64,7 +64,7 @@ body {
     color: var(--white);
     font-family: "Inter", sans-serif;
     line-height: 150%;
-    font-weight: var(--font-fw-reg);
+    font-weight: var(--font-fw-400);
     letter-spacing: 0;
     min-height: 100vh;
     display: flex;
@@ -165,6 +165,12 @@ body {
 .attribution {
     font-size: 0.75rem;
 }
+
 .attribution a {
     color: var(--green);
+}
+
+.attribution a:focus {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
 }
