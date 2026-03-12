@@ -29,11 +29,6 @@ ul[role="list"] {
     list-style: none;
 }
 
-a {
-    color: currentColor;
-    text-decoration: none;
-}
-
 /********************
 * VARIABLES
 ********************/
@@ -102,6 +97,30 @@ body {
 
 .card-location {
     color: var(--green);
+}
+
+.card-social-link:not(:last-child) {
+    margin-bottom: var(--spacing-200);
+}
+
+.card-social-link a {
+    display: block;
+    color: currentColor;
+    font-weight: var(--font-fw-700);
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: var(--grey-700);
+    transition:
+        background-color 0.25s,
+        color 0.25s;
+}
+
+@media (hover: hover) {
+    .card-social-link a:hover {
+        background-color: var(--green);
+        color: var(--grey-700);
+    }
 }
 
 /********************
