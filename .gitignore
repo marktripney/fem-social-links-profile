@@ -1,0 +1,10 @@
+# directories
+design/
+
+# files
+AGENTS.md
+CLAUDE.md
+README.md
+
+# macOS-specific files
+.DS_Store
